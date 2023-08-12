@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  line-height: 1.5;
+}
+.thung {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2rem;
+}
+.ko-chiu {
+  grid-column: 1/-1;
+}
+.cau-hoi {
+  word-wrap: break-word;
+  color: #ffffe6;
+  margin-bottom: 3rem;
+}
+.nut {
+  border-radius: 15px;
+}
+.nen-tieu-de img {
+  width: 100%;
+
+  object-fit: contain;
+  object-position: top;
+  filter: opacity(30%);
+}
+.nut-co {
+  background-color: #21d421;
+}
+.nut-ko {
+  background-color: #ff0000;
+}
+.ko-chiu {
+  background-color: #d9ff00;
+  color: #000000;
+}
+.hidden {
+  display: none;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+#banner {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  white-space: nowrap;
+}
+.nen-tieu-de {
+  position: relative;
+  text-align: start;
+  color: #f7f7f7;
+  background-color: #c26b6b;
+}
+.b {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+}
